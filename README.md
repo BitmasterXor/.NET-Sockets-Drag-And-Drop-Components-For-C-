@@ -236,7 +236,7 @@ To run the demo:
 
 ## 🛠️ Requirements
 
-- **.NET Framework 4.8** or higher
+- **.NET Framework 4.8** or higher (May work with others lower / higher I did not personally test that)... its only been tested using .NET 4.8
 - **Windows Forms** application
 - **Visual Studio 2019** or higher (recommended)
 - **Windows OS** (tested on Windows 10/11)
