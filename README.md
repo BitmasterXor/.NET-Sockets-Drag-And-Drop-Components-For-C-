@@ -52,7 +52,9 @@ XorSockets provides powerful, easy-to-use TCP networking components inspired by 
    C:\Users\[YOUR_USERNAME]\Documents\Visual Studio 2022\Templates\ItemTemplates\
    ```
 2. Restart Visual Studio
-3. Add components via Project → Add New Item → XorSockets Template
+3. Make yourself a new .net Forms project and Add components via Project → Add New Item → XorSockets Template
+4. BUILD YOUR PROJECT << YOU MUST DO THIS even if you have not written any code yet.... the reason behind this is that it builds not only your project but the template files as well which in turn add the Components to your "ToolBox"
+5. Drag and drop the components (AsyncServer / AsyncClient) to your form and Enjoy!
 
 ## 🔧 Quick Start
 
