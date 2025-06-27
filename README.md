@@ -46,7 +46,7 @@ XorSockets provides powerful, easy-to-use TCP networking components inspired by 
 3. Build your project
 4. The components will appear in your Visual Studio Toolbox
 
-### Method 2: Template Installation
+### Method 2: Template Installation (HIGHLY RECOMMENDED) 
 1. Copy the XorSockets template folder to:
    ```
    C:\Users\[YOUR_USERNAME]\Documents\Visual Studio 2022\Templates\ItemTemplates\
