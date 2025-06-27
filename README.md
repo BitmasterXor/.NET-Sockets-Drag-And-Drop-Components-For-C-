@@ -5,10 +5,10 @@
 XorSockets provides powerful, easy-to-use TCP networking components inspired by Delphi's TClientSocket and TServerSocket. Built for .NET Framework 4.8+ and Windows Forms applications, these components offer both blocking and non-blocking operation modes with comprehensive event handling.
 
 <div align="center">
-  <img src="Preview.png" alt="XorSockets" />
+  <img src="preview.png" alt="XorSockets" />
 </div>
 <div align="center">
-  <img src="Preview1.png" alt="XorSockets Demo Application" />
+  <img src="Preview2.png" alt="XorSockets Demo Application" />
 </div>
 
 
