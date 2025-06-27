@@ -264,4 +264,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Made with ❤️ for the .NET community**
+**Made By: BitmasterXor with ❤️ for the .NET community**
