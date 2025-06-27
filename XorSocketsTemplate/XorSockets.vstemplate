@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>XorSockets</DefaultName>
+    <Name>XorSockets TCP Components</Name>
+    <Description>Adds AsyncClient and AsyncServer TCP socket components to your project with full designer support</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <TemplateID>XorSockets.TCP.Components.v1</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Core</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Windows.Forms</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Drawing</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="AsyncClient.cs" SubType="Component">AsyncClient.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="AsyncClient.Designer.cs" DependentUpon="AsyncClient.cs">AsyncClient.Designer.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="AsyncClient.resx" DependentUpon="AsyncClient.cs">AsyncClient.resx</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="AsyncServer.cs" SubType="Component">AsyncServer.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="AsyncServer.Designer.cs" DependentUpon="AsyncServer.cs">AsyncServer.Designer.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
